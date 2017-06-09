@@ -1,9 +1,9 @@
 import { describe, it } from 'mocha';
 import { expect } from 'chai';
-import { compose } from "../compose/index";
+import { compose } from "../index";
 
-describe('Compose function: ', () => {
-    it('Should call functions from last to first', () => {
+describe('Function functions: ', () => {
+    it('Compose should call functions from last to first', () => {
         const test = compose(
             v => v ? 'success' : 'fail',
             v => true

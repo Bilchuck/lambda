@@ -1,3 +1,3 @@
-export * from './map';
-export * from './curry';
-export * from './reduce';
+export * from './functions';
+export * from './objects';
+export * from './list';

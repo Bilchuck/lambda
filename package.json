@@ -1,0 +1,25 @@
+{
+  "name": "lambda",
+  "version": "1.0.0",
+  "description": "JS functional library",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bilchuck/lambda.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bilchuck/lambda/issues"
+  },
+  "homepage": "https://github.com/Bilchuck/lambda#readme",
+  "dependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2",
+    "typescript": "^2.3.4"
+  }
+}
